@@ -1,0 +1,2 @@
+<import src="./licenseChange.vue.wxml" />
+    <template is="32e90c61" data="{{ ...$root['0'], $root }}"/>

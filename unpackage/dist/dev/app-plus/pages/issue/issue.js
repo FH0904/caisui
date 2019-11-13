@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"issue.",[1],"data-v-f6310da0 { width: 100%; margin: 0 auto; }\n.",[1],"issue .",[1],"write_title.",[1],"data-v-f6310da0 { width: 90%; }\n.",[1],"issue .",[1],"write_title wx-input.",[1],"data-v-f6310da0 { border: 1px solid #000; }\n",],undefined,{path:"./pages/issue/issue.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/issue/issue.wxml') } }));

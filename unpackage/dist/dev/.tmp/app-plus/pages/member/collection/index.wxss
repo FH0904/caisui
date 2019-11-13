@@ -1,0 +1,115 @@
+
+.collection .goods-img.data-v-cdd925fa{
+	width: 150rpx;
+	height: 150rpx;
+}
+.container_of_slide.data-v-cdd925fa {
+	width: 100%;
+	overflow: hidden;
+}
+.slide_list.data-v-cdd925fa {
+	-webkit-transition: all 100ms;
+	-o-transition: all 100ms;
+	transition: all 100ms;
+	-webkit-transition-timing-function: ease-out;
+	     -o-transition-timing-function: ease-out;
+	        transition-timing-function: ease-out;
+	min-width: 200%;
+}
+.now-message-info.data-v-cdd925fa {
+	-webkit-box-sizing:border-box;
+	        box-sizing:border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 16px;
+	clear:both;
+	padding: 20rpx 26rpx;
+	margin-bottom: 2rpx;
+	background: #FFFFFF;
+}
+.now-message-info.data-v-cdd925fa,
+.group-btn.data-v-cdd925fa {
+	float: left;
+}
+.group-btn.data-v-cdd925fa {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	height: 190rpx;
+	min-width: 100rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.group-btn .btn-div.data-v-cdd925fa {
+	height: 190rpx;
+	color: #fff;
+	text-align: center;
+	padding: 0 50rpx;
+	font-size: 34rpx;
+	line-height: 190rpx;
+}
+.group-btn .top.data-v-cdd925fa {
+	background-color: #FFAA33;
+}
+.group-btn .removeM.data-v-cdd925fa {
+	background-color: #ff3b44;
+}
+.icon-circle.data-v-cdd925fa{
+	width:150rpx;
+	height: 150rpx;
+	float: left;
+}
+.list-right.data-v-cdd925fa{
+	float: left;
+	margin-left: 25rpx;
+	height: 150rpx;
+}
+.list-right-1.data-v-cdd925fa{
+	float: right;
+	color: #A9A9A9;
+}
+.list-title.data-v-cdd925fa{
+	width: 490rpx;
+	line-height:1.5;
+	overflow:hidden;
+	color:#333;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+	overflow:hidden;
+	font-size: 26rpx;
+	color: #333;
+	min-height: 80rpx;
+}
+.list-detail.data-v-cdd925fa{
+	width: 460rpx;
+	font-size: 24rpx;
+	color: #a9a9a9;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	overflow:hidden;
+}
+.collection-none.data-v-cdd925fa{
+	text-align: center;
+	padding: 200rpx 0;
+}
+.collection-none-img.data-v-cdd925fa{
+	width: 274rpx;
+	height: 274rpx;
+}
+

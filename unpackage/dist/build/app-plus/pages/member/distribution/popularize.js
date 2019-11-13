@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content-c{ text-align: center; padding: ",[0,50]," 0; width: 80%; margin: 0 auto; }\n.",[1],"content-c-top{ text-align: left; }\n.",[1],"qrcode-img{ width: ",[0,400],"; height: ",[0,400],"; margin: ",[0,50]," auto; }\n",],undefined,{path:"./pages/member/distribution/popularize.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/member/distribution/popularize.wxml') } }));

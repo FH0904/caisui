@@ -1,0 +1,730 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				// #ifdef H5
+				"titleNView": false,
+				// #endif
+				// "enablePullDownRefresh": true,
+				// 去掉顶部的导航栏
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		// 图片选择界面
+		{
+			"path": "pages/test/chooseImage",
+			"style": {
+				"navigationBarTitleText": "处理图片",
+				// #ifdef H5
+				// "titleNView": false,
+				// #endif
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		
+		
+		{
+				"path": "pages/caishuiguanli/caishuiguanli",
+				"style": {
+					"navigationBarTitleText": "财税管理",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"enablePullDownRefresh": true,
+					"backgroundTextStyle" :"dark",
+					"navigationBarTextStyle":"white"
+				}
+			},
+			
+			{
+				"path": "pages/childrenCompon/shangchuan",
+				"style": {
+					"navigationBarTitleText": "上传",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"enablePullDownRefresh": true,
+					"backgroundTextStyle" :"dark",
+					"navigationBarTextStyle":"white"
+					
+				}
+			},
+			
+			
+			//--老板看账
+			{
+				"path": "pages/childrenCompon/boss",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none"
+					
+				}
+			},
+			//--纳税申报
+			{
+				"path": "pages/childrenCompon/nashui",
+				"style": {
+					"navigationBarTitleText": "纳税申报",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"navigationBarTextStyle":"white"
+				}
+			},
+			//-资产负债
+			{
+				"path": "pages/childrenCompon/zichan",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none"
+				}
+			},
+			//明细
+			{
+				"path": "pages/childrenCompon/mingxi",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none"
+				}
+			},
+			//利润表
+			{
+				"path": "pages/childrenCompon/lirun",
+				"style": {
+					"navigationBarTitleText": "利润表",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"navigationBarTextStyle":"white"
+				}
+			},
+			//余额表
+			{
+				"path": "pages/childrenCompon/yue",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none"
+				}
+			},
+			//发票清单
+			{
+				"path": "pages/childrenCompon/fapiao",
+				"style": {
+					"navigationBarTitleText": "发票清单",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"navigationBarTextStyle":"white"
+				}
+			},
+			//我的工资
+			{
+				"path": "pages/childrenCompon/gongzi",
+				"style": {
+					"navigationBarTitleText": "我的工资",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"navigationBarTextStyle":"white"
+				}
+			},
+			//财务分析
+			{
+				"path": "pages/childrenCompon/caiwu",
+				"style": {
+					"navigationStyle": "custom",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none"
+				}
+			},
+			//公司管理
+			{
+				"path": "pages/childrenCompon/guanli",
+				"style": {
+					"navigationBarTitleText": "公司管理",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"navigationBarTextStyle":"white",
+					"app-plus": {
+						"bounce": "none", //关闭窗口回弹效果
+						"titleNView": {
+							"buttons": [ //原生标题栏按钮配置,
+								{
+									"text": "提交", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+									"fontSize": "24upx"
+								}
+							]
+						}
+					}
+				}
+			},
+			//代账机构
+			{
+				"path": "pages/childrenCompon/jigou",
+				"style": {
+					"navigationBarTitleText": "代账机构",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"navigationBarTextStyle":"white"
+				}
+			},
+			//开票信息
+			{
+				"path": "pages/childrenCompon/kaipiao",
+				"style": {
+					"navigationBarTitleText": "开票信息",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"navigationBarTextStyle":"white",
+					"app-plus": {
+						"bounce": "none", //关闭窗口回弹效果
+						"titleNView": {
+							"buttons": [ //原生标题栏按钮配置,
+								{
+									"text": "完成", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+									"fontSize": "24upx"
+								}
+							]
+						}
+					}
+				}
+			},
+			//更多服务
+			{
+				"path": "pages/childrenCompon/gengduo",
+				"style": {
+					"navigationBarTitleText": "更多服务",
+					"navigationBarBackgroundColor": "#007AFF",
+					"scrollIndicator": "none",
+					"navigationBarTextStyle":"white",
+					"app-plus": {
+						"bounce": "none", //关闭窗口回弹效果
+						"titleNView": {
+							"buttons": [ //原生标题栏按钮配置,
+								{
+									"text": "提交", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+									"fontSize": "24upx"
+								}
+							]
+						}
+					}
+				}
+			},
+		//分类
+		{
+			"path": "pages/class/class",
+			"style": {
+				"navigationBarTitleText": "财务",
+				"navigationBarBackgroundColor": "#007AFF",
+				"scrollIndicator": "none",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle" :"dark",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		
+		
+
+		{
+			"path": "pages/index/custom",
+			"style": {
+				"navigationBarTitleText": "页面",
+				// #ifdef H5
+				"titleNView": false,
+				// #endif
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "优品",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/classify/index",
+			"style": {
+				"navigationBarTitleText": "商品列表"
+			}
+		},
+		{
+			"path": "pages/ring/index",
+			"style": {
+				"navigationBarTitleText": "圈子",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/issue/issue",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/member/index/index",
+			"style": {
+				// #ifdef H5
+				"titleNView": false,
+				// #endif
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/member/coupon/index",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},
+		{
+			"path": "pages/member/balance/index",
+			"style": {
+				"navigationBarTitleText": "我的余额"
+			}
+		},
+		{
+			"path": "pages/member/balance/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/member/balance/withdraw_cash",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/member/balance/details",
+			"style": {
+				"navigationBarTitleText": "余额明细"
+			}
+		},
+		{
+			"path": "pages/member/balance/cashlist",
+			"style": {
+				"navigationBarTitleText": "提现记录"
+			}
+		},
+		{
+			"path": "pages/member/balance/bankcard",
+			"style": {
+				"navigationBarTitleText": "我的银行卡"
+			}
+		},
+		{
+			"path": "pages/member/balance/add_bankcard",
+			"style": {
+				"navigationBarTitleText": "添加银行卡"
+			}
+		},
+		{
+			"path": "pages/member/collection/index",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/member/history/index",
+			"style": {
+				"navigationBarTitleText": "我的足迹"
+			}
+		},
+		{
+			"path": "pages/member/address/list",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/member/address/index",
+			"style": {
+				"navigationBarTitleText": "修改地址"
+			}
+		},
+		{
+			"path": "pages/member/setting/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/member/setting/user_info/index",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/member/integral/index",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		},
+		{
+			"path": "pages/member/invite/index",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		},
+		{
+			"path": "pages/member/invite/list",
+			"style": {
+				"navigationBarTitleText": "邀请列表"
+			}
+		},
+		{
+			"path": "pages/member/take_delivery/index",
+			"style": {
+				"navigationBarTitleText": "提货单核销"
+			}
+		},
+		{
+			"path": "pages/member/take_delivery/list",
+			"style": {
+				"navigationBarTitleText": "提货单列表"
+			}
+		},
+		{
+			"path": "pages/goods/index/index",
+			"style": {
+				// #ifdef H5
+				"titleNView": false,
+				// #endif
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/goods/index/group",
+			"style": {
+				"navigationBarTitleText": "促销详情"
+			}
+		},
+		{
+			"path": "pages/goods/place-order/index",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/goods/place-order/invoice",
+			"style": {
+				"navigationBarTitleText": "发票"
+			}
+		},
+		{
+			"path": "pages/goods/place-order/storelist",
+			"style": {
+				"navigationBarTitleText": "门店列表"
+			}
+		},
+		{
+			"path": "pages/goods/payment/index",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/goods/payment/auth",
+			"style": {
+				"navigationBarTitleText": "等待支付"
+			}
+		},
+		{
+			"path": "pages/goods/payment/result",
+			"style": {
+				"navigationBarTitleText": "支付结果"
+			}
+		},
+		{
+			"path": "pages/member/order/orderlist",
+			"style": {
+				"navigationBarTitleText": "订单列表"
+			}
+		},
+		{
+			"path": "pages/member/order/orderdetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/member/order/invitation_group",
+			"style": {
+				"navigationBarTitleText": "邀请拼单"
+			}
+		},
+		{
+			"path": "pages/member/after_sale/index",
+			"style": {
+				"navigationBarTitleText": "申请售后"
+			}
+		},
+		{
+			"path": "pages/member/after_sale/list",
+			"style": {
+				"navigationBarTitleText": "售后列表"
+			}
+		},
+		{
+			"path": "pages/member/after_sale/detail",
+			"style": {
+				"navigationBarTitleText": "售后详情"
+			}
+		},
+		{
+			"path": "pages/member/order/evaluate",
+			"style": {
+				"navigationBarTitleText": "订单评价"
+			}
+		},
+		{
+			"path": "pages/member/order/express_delivery",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},
+		{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "文章列表"
+			}
+		},
+		{
+			"path": "pages/login/choose/index",
+			"style": {
+				"navigationBarTitleText": "授权登录"
+			}
+		},
+		{
+			"path": "pages/login/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/login/index1",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/share",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/author",
+			"style": {
+				// #ifdef H5
+				"titleNView": false,
+				// #endif
+				"navigationBarTitleText": "获取授权中"
+			}
+		},
+		{
+			"path": "pages/login/register/index",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/classify/pintuan_list",
+			"style": {
+				"navigationBarTitleText": "拼团列表"
+			}
+		},
+		{
+			"path": "pages/goods/index/pintuan",
+			"style": {
+				"navigationBarTitleText": "拼团详情"
+			}
+		},
+		{
+			"path": "pages/form/detail/form",
+			"style": {
+				"navigationBarTitleText": "万能表单"
+			}
+		},
+		{
+			"path": "pages/member/distribution/index",
+			"style": {
+				"navigationBarTitleText": "分销中心"
+			}
+		},
+		{
+			"path": "pages/member/distribution/apply",
+			"style": {
+				"navigationBarTitleText": "申请成为分销"
+			}
+		},
+		{
+			"path": "pages/member/distribution/apply_state",
+			"style": {
+				"navigationBarTitleText": "审核状态"
+			}
+		},
+		{
+			"path": "pages/member/distribution/user",
+			"style": {
+				"navigationBarTitleText": "分销中心"
+			}
+		},
+		{
+			"path": "pages/member/distribution/order",
+			"style": {
+				"navigationBarTitleText": "推广订单"
+			}
+		},
+		{
+			"path": "pages/member/distribution/popularize",
+			"style": {
+				"navigationBarTitleText": "我要推广"
+			}
+		},
+		{
+			"path": "pages/member/distribution/my_store",
+			"style": {
+				"navigationBarTitleText": "我的店铺"
+			}
+		},
+		{
+			"path": "pages/member/distribution/store_setting",
+			"style": {
+				"navigationBarTitleText": "店铺设置"
+			}
+		},
+		{
+			"path": "pages/activity/activity_list",
+			"style": {
+				"navigationBarTitleText": "活动列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/activity/activity_detail",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/share/jump",
+			"style": {
+				// #ifdef H5
+				"titleNView": false,
+				// #endif
+				"navigationBarTitleText": "加载中..."
+			}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "资讯列表",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/news/news_detail",
+			"style": {
+				"navigationBarTitleText": "资讯详情",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					// "bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								// "text": "分享" //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/index/register/register",
+			"style": {
+				"navigationBarTitleText": "公司注册"
+			}
+		}, {
+			"path": "pages/index/tally/tally",
+			"style": {
+				"navigationBarTitleText": "记账报税"
+			}
+		}, {
+			"path": "pages/index/trademark/trademark",
+			"style": {
+				"navigationBarTitleText": "商标业务"
+			}
+		}, {
+			"path": "pages/index/licenseChange/licenseChange",
+			"style": {
+				"navigationBarTitleText": "执照变更"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "新模板",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#333",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/image/index_gray.png",
+				"selectedIconPath": "static/image/index_black.png"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"text": "优品",
+				"iconPath": "static/image/cart_gray.png",
+				"selectedIconPath": "static/image/cart_black.png"
+			},
+			{
+				"pagePath": "pages/ring/index",
+				"text": "圈子",
+				"iconPath": "static/image/classify_gray.png",
+				"selectedIconPath": "static/image/classify_black.png"
+			},
+			{
+				"pagePath": "pages/member/index/index",
+				"text": "我",
+				"iconPath": "static/image/user_gray.png",
+				"selectedIconPath": "static/image/user_black.png"
+			}
+		]
+	},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

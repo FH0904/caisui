@@ -1,0 +1,11 @@
+.issue.data-v-f6310da0 {
+  width: 100%;
+  margin: 0 auto;
+}
+.issue .write_title.data-v-f6310da0 {
+  width: 90%;
+}
+.issue .write_title input.data-v-f6310da0 {
+  border: 1px solid #000;
+}
+

@@ -1,0 +1,48 @@
+
+.payment-method .cell-item-hd{
+	min-width: 70rpx;
+}
+.payment-method .cell-hd-icon{
+	width: 70rpx;
+	height: 70rpx;
+}
+.payment-method .cell-item-bd{
+	border-left: 2rpx solid #F0F0F0;
+	padding-left: 30rpx;
+}
+.payment-method .cell-bd-text{
+	font-size: 28rpx;
+	color: #666;
+}
+.payment-method .address{
+	font-size: 24rpx;
+	color: #999;
+}	
+
+
+.margin-cell-group{
+	margin-bottom: 20rpx;
+}
+.cell-hd-title{
+	color: #999;
+}
+.payment-method .cell-item-hd{
+	min-width: 70rpx;
+}
+.payment-method .cell-hd-icon{
+	width: 70rpx;
+	height: 70rpx;
+}
+.payment-method .cell-item-bd{
+	border-left: 2rpx solid #F0F0F0;
+	padding-left: 30rpx;
+}
+.payment-method .cell-bd-text{
+	font-size: 28rpx;
+	color: #666;
+}
+.payment-method .address{
+	font-size: 24rpx;
+	color: #999;
+}
+
